@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93f90b3cbd7cdb4d9aeafec17a3eacc, type: 3}
+  m_Name: Data Base_Manager
+  m_EditorClassIdentifier: 
+  bgmDataArr:
+  - clip: {fileID: 8300000, guid: bbc2f28526c9a7f4e85ae582475da277, type: 3}
+    volume: 1
+    bgmType: 10
+  sfxDataArr:
+  - clip: {fileID: 8300000, guid: e2e630652aee2374ca2779a3805ead01, type: 3}
+    volume: 0.2
+    sfxType: 10
+  - clip: {fileID: 8300000, guid: 632ceb6ccb94e78428da454f924c5953, type: 3}
+    volume: 0.2
+    sfxType: 20
+  - clip: {fileID: 8300000, guid: 13b7ea1ecd6a3a1439e117ab086bab84, type: 3}
+    volume: 0.2
+    sfxType: 30
+  - clip: {fileID: 8300000, guid: f6409772cc32e0c4c9ac7e8525cbae3a, type: 3}
+    volume: 0.2
+    sfxType: 40
+  - clip: {fileID: 8300000, guid: ca978fc6b070f8249aa11ad120098594, type: 3}
+    volume: 0.2
+    sfxType: 50
+  - clip: {fileID: 8300000, guid: 04d12f4e31d3d2249860242bd39a3a1e, type: 3}
+    volume: 0.2
+    sfxType: 60
+  - clip: {fileID: 8300000, guid: 15d870d3005f31b408e4e79f99001e74, type: 3}
+    volume: 0.2
+    sfxType: 70
+  - clip: {fileID: 8300000, guid: f0028ffce9deb5b49a6436cab593ed2e, type: 3}
+    volume: 0.2
+    sfxType: 80
+  - clip: {fileID: 8300000, guid: 7646c15d8ed6955498e13e91d6f72bad, type: 3}
+    volume: 0.2
+    sfxType: 90
+  - clip: {fileID: 8300000, guid: 9cc1ed5ee2777c443b5951f7d81dc821, type: 3}
+    volume: 0.2
+    sfxType: 100
+  - clip: {fileID: 8300000, guid: c5b0e0af9d794494d830110c796b7c00, type: 3}
+    volume: 0.2
+    sfxType: 110
+  - clip: {fileID: 8300000, guid: d45a5884149e40f4e91df58db9acf262, type: 3}
+    volume: 0.2
+    sfxType: 120
+  - clip: {fileID: 8300000, guid: 2306f6c9b59c69441a4794efe5b16ff4, type: 3}
+    volume: 0.8
+    sfxType: 130
+  - clip: {fileID: 8300000, guid: a34c8512566b34f48a325aaa6a2a1298, type: 3}
+    volume: 0.8
+    sfxType: 140
+  - clip: {fileID: 8300000, guid: 2194a0a663eca4f4dbc0839f05b0bfa0, type: 3}
+    volume: 0.8
+    sfxType: 150
+  - clip: {fileID: 8300000, guid: cb589784a66425a4991df6a98b08cb88, type: 3}
+    volume: 0.5
+    sfxType: 160
+  - clip: {fileID: 8300000, guid: 6a4a35e4c7225a440af8bc63e209ac65, type: 3}
+    volume: 1
+    sfxType: 170
+  - clip: {fileID: 8300000, guid: 21da90cd8ce820640b013988d69443ca, type: 3}
+    volume: 0.5
+    sfxType: 180
+  moveSpeed: 3
+  stepSfxInterval: 0.5
+  goal: 10
+  spawnTreeCount: 30
+  baseTree: {fileID: 2408378543199819266, guid: 6dfc7406a7efa214588910dafa1096dc, type: 3}
+  monsterMaxCount: 10
+  monsterSpawnInterval: 5
+  monsterMoveSpeed: 1
+  monsterRunSpeed: 2
+  baseMonster: {fileID: 4276982197359098222, guid: 314f721d2d0b0f14b94db7dc4c399c46, type: 3}
+  keySpawnInterval: 5
+  keyDuration: 10
+  keyLightRadius: 2
+  baseKey: {fileID: 1767225013723987855, guid: b12c106f5b07ecb49b4df6c8218f1698, type: 3}
+  canSpawnInterval: 1
+  canDuration: 20
+  canCollideDuration: 3
+  notifyDistance: 5
+  baseCan: {fileID: 267437095638628900, guid: a4fe6282e5520564c9853604ffd19468, type: 3}
+  canSfxTypeArr: 820000008c00000096000000
+  collideCanSpriteArr: {fileID: 21300000, guid: 9a35992e15b55914e9132d478f2554ba, type: 3}
